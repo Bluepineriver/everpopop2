@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<!--Tạo menu-->
+<head>
+    <title>Menu </title>
+    <style>
+        ul {
+           	list-style-type: none;
+           	margin: 0;
+           	padding: 0;
+		text-align: right;
+        }
+
+        li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="product.html">Product</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="account.html">Account</a></li>
+    </ul>
+</body>
+<!--Tạo tiêu đề trang-->
+	<head>
+		<title>My webpage - Home </title>
+	</head>
+<!--Cài đặt màu nền là màu xanh-->
+	<body style="background-color:powderblue;">
+<!--Cài đặt heading 1-->
+		<h1 style="font-size:60px;color:maroon;font-family:comic sans ms;text-align:center;"> EVERPOPPOP </h1>
+		<p style="font-size:20px;color:darkblue;font-family:trebuchet ms;text-align:center;"> <b> <i> Let's immerse yourself in the world of Popmarts </b> </i> </p>
+		<p style="font-size:20px;color:darkblue;font-family:trebuchet ms;text-align:center;" >Poppop's goal is to: <q>Build a destination where people live in harmony with their own child.</q></p>
+<!--Gán link trang khác-->
+		<a href = "AboutPoppop.html">About Us </a>
+<!--Gán link liên kết--> 
+		<p> Click <a href = "https://www.facebook.com/noahnnguyen99">here </a> to see my Facebook Page </p>
+<!--Cài đặt heading 2-->
+		<h2 style="font-size:40px;color:maroon;font-family:comic sans ms;text-align:center;"> <i>Our Newest Products </i> </h2>
+<!--Cài đặt hiển thị các ảnh sản phẩm sao cho 3 hình ảnh sản phẩm cùng trên 1 hàng và có caption ở dưới mỗi hình ảnh-->
+ 		<style>
+			.image-container {
+            		display: flex; /* Sử dụng flexbox để xếp các hình ảnh */
+        		}
+        
+        		.image-container figure {
+            		text-align: center; /* Canh giữa nội dung caption */
+            		margin: 0 15px; /* Khoảng cách giữa mỗi hình ảnh */
+        		}
+    		</style>
+        
+	<div class="image-container">
+		<figure>
+   		 <img src = "https://vn-test-11.slatic.net/p/70cef1c475335bde87b9cbc434bccd4e.jpg" alt "https://product.hstatic.net/200000689807/product/290680899_10166558624360192_9072719651123858687_n_e7a8814891f444de8f125ffc7e975a3b_master.jpg" height = "400" width = "480"> <figcaption style="color:purple;font-family:comic sans ms;">REDBULLY</figcaption>
+		</figure>
+		<figure>
+		<img src ="https://product.hstatic.net/200000095761/product/008snxb3ly1hefcj1nx7gj34mo334u0z_bbb03973d658499486ebbc48714a117b_master.jpg" height = "400" width = "480"><figcaption style="color:purple;font-family:comic sans ms;">SPY X FAMILY</figcaption>
+		</figure>
+		<figure>
+		<img src = "https://ae01.alicdn.com/kf/Sf7b20f90779d4b288bbadcf529c81f77w/Popmart-The-Year-of-Tiger-Good-Luck-Skullpanda-Blind-Box-Mystery-Box-Toy-for-Girl-Anime.jpg" height = "400" width = "480"><figcaption style="color:purple;font-family:comic sans ms;">NEW YEAR SKULLPANDA</figcaption>
+		</figure>
+	</div>
+		<br>
+		<h2 style="font-size:40px;color:maroon;font-family:comic sans ms;text-align:center;"> <i> Product Type Table </i> </h2>
+<!--Tạo bảng gồm 3 cột và 3 dòng-->
+	<style>
+	table, th, td {
+ 	 border:1px solid darkblue;
+	}
+	</style>
+	<table style="width:100%; font-family:trebuchet ms;text-align:center;color:MediumVioletRed">
+ 		 <tr>
+    			<th>Type</th>
+    			<th>Average Price</th>
+    			<th>Additional Items</th>
+  		</tr>
+  		<tr>
+    			<td>Single Box</td>
+    			<td>280.000 VNĐ</td>
+    			<td>None</td>
+  		</tr>
+  		<tr>
+    			<td>Full 12/12 Box</td>
+    			<td>3.000.000 VNĐ</td>
+    			<td>Plastic Box</td>
+  		</tr>
+		</table>
+		<br>
+<!--Cài đặt heading 3 cho video-->
+		<h3 style="font-size:30px;color:maroon;font-family:comic sans ms;text-align:center;"> <i> This video is for those who are newbies in Popmart Universe &#128131; </i> </h3>
+<!--Gắn link video từ Youtube-->
+		
+		<iframe width="1500" height="700" src="https://www.youtube.com/embed/zh9T_BUTATQ?si=rg5vyMVbkWMzqmtS&amp;start=15" title="YouTube video player" frameborder="3" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	
+	</body>
+<!--Gắn link bản đồ ở footer-->
+	<footer>
+		<p style="font-size:40px;color:PaleVioletRed;font-family:trebuchet ms;text-align:center;"> <b> <i> Visit our store at below address &#128071;</b> </i> </p>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.652755067781!2d106.6658718752337!3d10.761222489386622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ee4ecfa255d%3A0x9e5ec3fa6801b7d6!2zMjc5IMSQLiBOZ3V54buFbiBUcmkgUGjGsMahbmcsIFBoxrDhu51uZyA1LCBRdeG6rW4gMTAsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1697556207171!5m2!1svi!2s" width="1800" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</footer>
+</html>
